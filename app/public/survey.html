@@ -1,0 +1,51 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Aaron Tyler</title>
+      <!-- Latest compiled and minified CSS & JS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron"style="background-image:#">
+                <h1 style="color:Black">Survey</h1>
+            </div>
+        </div>
+        <form action="/api/friends" method="POST">
+            <textarea type="text" name="name"></textarea>
+        
+            <p>Do you like or dislike Diplo on a scale of 1-5<p>
+            
+            <select name="question">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            <p>Do you like or dislike Garth Brooks on a scale of 1-5<p>
+                
+            <select name="question">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <p>Do you like or dislike Rolling Stones on a scale of 1-5<p>
+                
+            <select name="question">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
